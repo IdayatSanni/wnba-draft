@@ -1,4 +1,5 @@
 <?php
+include('functions.php');
 if (isset($_POST['updateAward'])) {
     $awardID = $_POST['award_id'];
     $playerID = $_POST['player_id'];
@@ -22,6 +23,7 @@ if (isset($_POST['updateAward'])) {
     $updateAward = mysqli_query($connect, $query);
 
     if ($updateAward) {
+        set_message('Award was successfully updated', 'success');
         header("Location: awardAdmin.php");
         exit; 
     } else {

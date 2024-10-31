@@ -1,5 +1,6 @@
 <?php
 require('../../templates/connect.php');
+include('../../templates/functions.php');
 ?>
 
 <!DOCTYPE html>
