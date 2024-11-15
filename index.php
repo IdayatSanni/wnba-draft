@@ -1,5 +1,5 @@
 <?php 
-  include('inc/functions.php');
+  include('templates/functions.php');
 ?>
 
 <!DOCTYPE html>
