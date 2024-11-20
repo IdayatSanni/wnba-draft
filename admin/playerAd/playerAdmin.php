@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include('../../templates/header.php'); ?>
 
+<?php 
+  include('../../templates/functions.php');
+  include('../../templates/header.php');
+  include('../login.php');
+  secure();
+?>
 <div class="container">
     <div class="row mb-4 align-items-center">
         <div class="col-md-6">
